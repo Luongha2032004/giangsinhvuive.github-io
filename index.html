@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
+
+	<link rel="stylesheet" type="text/css" href="normalize.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="jquery-ui.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	
+	<!-- Tải script -->
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery-ui.js"></script>
+    <script type="text/javascript" src="howler.min.js"></script>
+	<script type="text/javascript" src="typed.js"></script>
+	<script type="text/javascript" src="ThreeCanvas.js"></script>
+	<script type="text/javascript" src="Snow.js"></script>
+	<script type="text/javascript" src="Custom.js"></script>
+	<script src="data:image/jpeg;base64,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.js"></script>
+</head>
+<body onLoad="loading();">
+	<!-- Hiển thị trong lúc đợi load -->
+	<div id="loading">
+		<div class="spinner">
+        </div>
+	</div>
+	<!-- Giao diện chính -->
+	<div id="wrap">
+        <!-- Hiệu ứng tuyết-->
+        <div class="snow">
+        </div>
+        <!-- Đóng băng -->
+        <div class="ice">
+        </div>
+
+        <img id="santaClaus" alt="Santa Claus" />
+
+        <div id="letter">
+        	<span class="message"></span>
+        </div>
+
+        <img id="reindeer" src="imgs/reindeer.png" alt="Reindeer" />
+	</div>
+ <div>
+    <iframe src="https://www.nhaccuatui.com/mh/background/FRmR66R0XWqK" width="1" height="1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+ </div>
+</body>
+</html>
